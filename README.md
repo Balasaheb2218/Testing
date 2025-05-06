@@ -1,5 +1,7 @@
 #Testing
-Write a JUnit test to check if the add method of a Calculator class is working correctly. The add method should return the sum of two integers.
+
+
+1. Write a JUnit test to check if the add method of a Calculator class is working correctly. The add method should return the sum of two integers.
 Method to Test:
 
 public int add(int a, int b) {
@@ -16,7 +18,7 @@ Public void testAdd(){
 }
 }
 
-Write a JUnit test for a method getStringLength that returns the length of a given string.
+2. Write a JUnit test for a method getStringLength that returns the length of a given string.
 Method to Test:
 public int getStringLength(String str) {
     return str.length();
