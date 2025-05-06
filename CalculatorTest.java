@@ -10,12 +10,12 @@ public class CalculatorTest {
     public void testAdd() {
         Calculator calculator = new Calculator();
 
-        assertEquals(4, calculator.add(1, 3));
+        assertEquals(calculator.add(1, 3),4);
 
-        assertEquals(-4, calculator.add(-2, -2));
+        assertEquals(calculator.add(-2, -2),-4);
 
-        assertEquals(3, calculator.add(3, 0));
+        assertEquals(calculator.add(3, 0),3);
         
-        assertEquals(0, calculator.add(0, 0));
+        assertEquals(calculator.add(0, 0),0);
     }
 }
